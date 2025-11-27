@@ -1,1 +1,31 @@
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.controls {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.controls label, .controls input, .controls button {
+    margin-right: 15px;
+}
+
+#drawingCanvas {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    /* Set an initial size for the canvas */
+    width: 800px;
+    height: 600px;
+    cursor: crosshair; /* Indicate drawing mode */
+}
