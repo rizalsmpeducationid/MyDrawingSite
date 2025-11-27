@@ -76,5 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.addEventListener('mouseout', stopDrawing);   // Stop drawing if mouse leaves the canvas
 
     // Clear button event
+    // justaquick note tought this wont work for touch currently so thats the problem( im using chroomebook)
     clearButton.addEventListener('click', clearCanvas);
 });
